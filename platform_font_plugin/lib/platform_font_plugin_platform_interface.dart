@@ -8,7 +8,8 @@ abstract class PlatformFontPluginPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static PlatformFontPluginPlatform _instance = MethodChannelPlatformFontPlugin();
+  static PlatformFontPluginPlatform _instance =
+      MethodChannelPlatformFontPlugin();
 
   /// The default instance of [PlatformFontPluginPlatform] to use.
   ///
@@ -25,5 +26,10 @@ abstract class PlatformFontPluginPlatform extends PlatformInterface {
 
   Future<String?> getPlatformVersion() {
     throw UnimplementedError('platformVersion() has not been implemented.');
+  }
+
+  Future<String> getSystemFont() async {
+    throw UnimplementedError(
+        'platform systtem font() has not been implemented.');
   }
 }

@@ -1,7 +1,8 @@
 name: platform_font_plugin
-description: "A new Flutter plugin project."
+description: "A new Flutter plugin (Android only) used to get the device current font type"
 version: 0.0.1
 homepage:
+repository: https://github.com/Raks-Javac/platform_font_plugin.git
 
 environment:
   sdk: '>=3.2.6 <4.0.0'
