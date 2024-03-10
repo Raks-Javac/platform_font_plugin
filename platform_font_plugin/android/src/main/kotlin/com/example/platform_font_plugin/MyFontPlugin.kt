@@ -1,3 +1,5 @@
+package com.example.platform_font_plugin
+
 import android.content.Context
 import androidx.annotation.NonNull
 import io.flutter.embedding.engine.plugins.FlutterPlugin
